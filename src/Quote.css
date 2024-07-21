@@ -1,0 +1,41 @@
+.quote-card {
+  width: 100%; 
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+  margin: 20px auto 0; 
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.quote-author {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.quote-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quote-actions button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quote-actions button:hover {
+  background-color: #0056b3;
+}

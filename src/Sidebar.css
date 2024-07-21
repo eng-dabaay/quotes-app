@@ -1,0 +1,44 @@
+.sidebar {
+  width: 200px;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+}
+.sidebar h5{
+  font-size: 22px;
+  color: black;
+}
+.sidebar h4{
+  margin-top: -20px;
+  font-size: 23px;
+  color: black;
+}
+.sidebar h2 {
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
+.sidebar ul {
+  margin-top: 30px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-top: 60px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+  padding-top: 12px;
+  text-align: center;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ddd;
+  color: black;
+}
